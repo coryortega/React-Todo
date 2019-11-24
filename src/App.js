@@ -13,9 +13,10 @@ class App extends React.Component {
     super();
     this.state = {
       todo: [{name: "kill bobby",
-    id: 7,
-  done: false,
-display: true}]
+        id: 7,
+        done: true,
+        display: true
+      }]
     };
   }
 
